@@ -1,9 +1,6 @@
 "use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { cn } from '@/lib/utils';
-import { Home, FileCode, Activity, Settings, Menu } from 'lucide-react';
+
 
 export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);

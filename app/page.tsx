@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-<NavBar />      {/* Hero Section */}
+<NavBar />     
 
       <section className="relative px-4 py-16 md:py-24 overflow-hidden">
        

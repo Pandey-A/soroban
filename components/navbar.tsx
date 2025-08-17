@@ -50,46 +50,7 @@ export function NavBar() {
 
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pt-4 border-t border-gray-600">
-            <div className="flex flex-col space-y-4">
-              <Link 
-                href="/" 
-                className="text-sm text-gray-300 hover:text-white transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Home
-              </Link>
-              <Link 
-                href="/playground" 
-                className="text-sm text-gray-300 hover:text-white transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Playground
-              </Link>
-              <Link 
-                href="#" 
-                className="text-sm text-gray-300 hover:text-white transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Learn
-              </Link>
-              <Link 
-                href="#" 
-                className="text-sm text-gray-300 hover:text-white transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Button 
-                size="sm" 
-                variant="outline" 
-                className="border-gray-600 text-gray-300 hover:bg-white/10 hover:text-white hover:border-gray-500 transition-all duration-200 rounded-lg px-4 w-fit"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Sign In
-              </Button>
-            </div>
-          </div>
+          
         )}
       </div>
     </nav>

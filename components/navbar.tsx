@@ -15,7 +15,7 @@ export function NavBar() {
             WebSoroban
           </Link>
           
-          {/* Desktop Navigation */}
+         
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-sm text-gray-300 hover:text-white transition-colors">
               Home
@@ -38,7 +38,7 @@ export function NavBar() {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
+         
           <button
             className="md:hidden text-white p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -48,7 +48,7 @@ export function NavBar() {
           </button>
         </div>
 
-        {/* Mobile Navigation Menu */}
+      
         {isMenuOpen && (
           <div className="md:hidden mt-4 pt-4 border-t border-gray-600">
             <div className="flex flex-col space-y-4">
